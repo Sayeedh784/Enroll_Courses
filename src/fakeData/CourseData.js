@@ -1,0 +1,31 @@
+var courseData = [
+  {
+    id:1,
+    name:"Javascripts",
+    instructor:"Sayeed",
+    image:"https://i.ibb.co/pZ2ptrP/img-1.png",
+    price:1000
+  },
+  {
+    id:2,
+    name:"ReactJs",
+    instructor:"Sayeed",
+    image:"https://i.ibb.co/RQ6SJLF/img-8.png",
+    price:1500
+  },
+  {
+    id:3,
+    name:"Django",
+    instructor:"Sayeed",
+    image:"https://i.ibb.co/jRTsPHC/img-3.png",
+    price:2000
+  },
+  {
+    id:4,
+    name:"Python",
+    instructor:"Sayeed",
+    image:"https://i.ibb.co/sPBbQ7X/img-7.png",
+    price:2000
+  },
+]
+export default courseData;
