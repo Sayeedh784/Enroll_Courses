@@ -1,3 +1,11 @@
 .item{
-  color: rgb(135, 228, 135);
+  color: rgb(52, 122, 122);;
+}
+
+.card{
+  text-align: left;
+}
+
+Button{
+  width: 200px;
 }

@@ -6,3 +6,7 @@
   width: 70%;
   border-right: 1px solid lightgray;
 }
+.card-container{
+  width: 30%;
+  border: none;
+}

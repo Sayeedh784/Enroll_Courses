@@ -11,11 +11,11 @@ const Course = (props) => {
       <div >
         <img src={image} alt="" />
       </div>
-      <div>
+      <div className="content">
         <h2 className="name">Course Title: {name}</h2>
-        <h2>Instructor: {instructor}</h2>
-        <h2 className="price">Price: {price}</h2>
-        <Button variant="warning" onClick={()=>(props.handleButton(props.course))}>Enroll Now</Button>
+        <h2 className="name">Instructor: {instructor}</h2>
+        <h2 className="name">Price: {price}</h2>
+        <Button className="button" variant="warning" onClick={()=>(props.handleButton(props.course))}>Enroll Now</Button>
       </div>
 
 
